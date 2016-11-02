@@ -57,8 +57,54 @@ h1, h2, h3 {
   text-align: center;
 }
 
+header {
+  text-align: center
+}
+
+header h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+header h3 {
+    font-family: 'Tisa Pro';
+    font-size: 1em;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+}
+
+section {
+}
+
 section li {
-  font-family: 'Tisa Sans Pro', sans-serif;
+    font-family: 'Tisa Sans Pro', sans-serif;
+}
+
+section h3 {
+    background-color: hsl(110,50%,75%);
+    margin: 0;
+    line-height: 2em;
+    border-bottom: 1px solid #727d84;
+}
+
+section h3 span {
+    font-family: 'Tisa Pro', serif;
+    margin-top: 2em;
+}
+
+section h3 span:before {
+    content: ' - ';
+}
+
+section > h3, section .lab {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+}
+
+section > ul {
+    margin: 0;
+    padding: 1em 0.5em 1em 2em;
 }
 
 .js {
@@ -83,23 +129,11 @@ section li {
   background-color: hsl(190,50%,75%);
   line-height: 2em;
   text-align: center;
-  border-top: 1px solid #727d84;
+  border-top: 1px solid #727d84
 }
 
-header {
-  text-align: center
-}
-
-header h2 {
-    font-size: 1.2em;
-    margin-bottom: 0.5em;
-}
-
-header h3 {
-    font-family: 'Tisa Pro';
-    font-size: 1em;
-    margin-top: 0.5em;
-    text-transform: uppercase;
+.lab:before {
+    content: 'Lab: ';
 }
 
 section, header {
@@ -115,34 +149,23 @@ section, header {
   border: 1px solid #727d84
 }
 
-section > h3, section .lab, header > h3, header .lab {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-}
-
-section > div, header > div {
+section ul, section div, header ul, header div {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 0.33333%;
             flex: 1 1 0.33333%;
 }
 
-section > h3 {
-  background-color: hsl(110,50%,75%);
-  margin: 0;
-  line-height: 2em;
-  border-bottom: 1px solid #727d84;
-}
+@media (max-width: 479px) {
 
-section > h3 span {
-  font-family: 'Tisa Pro', serif;
-  margin-top: 2em
-}
+    section ul, section div, header ul, header div {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 100%;
+                flex: 1 1 100%;
+        border-left: none;
+        border-right: none;
+    }
 
-section > h3 span:before {
-    content: ' - ';
-}
-
-.lab:before {
-  content: 'Lab: ';
+    section ul.js, section ul.rb, section div.js, section div.rb, header ul.js, header ul.rb, header div.js, header div.rb {
+        border-bottom: 1px solid #727d84;
+    }
 }
