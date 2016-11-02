@@ -1,0 +1,95 @@
+Week 2 -“Programming”
+■ JavaScript Basics (with ES2015)
+■ Functions
+■ Iteration/Enumeration
+■ Introduction to DOM
+■ Ruby Basics
+■ Methods
+■ Objects and Classes
+■ .NET Basics
+■ Methods
+■ Objects and Classes ■ Typing
+Lab: ...
+Week 3 - Programming Paradigms
+■ Objects , Constructors & OOP
+■ Anonymous Functions & FP
+■ Scope, closures, and `this`
+■ Async (Callbacks, Promises, etc.)
+■ Blocks and Enumerable
+■ Classes, Inheritance,
+Composition, and Modules
+■ Inheritance, Composition, Interfaces
+■ Generics
+■ Enumerable
+■ Namespaces
+Introduction to Testing and TDD (Joint Lecture)
+Lab: Mastermind
+Week 4 - Interwebz II: Diving Deeper
+ 1 of 3
+   ■ Introduction to React
+■ Importing Modules with
+ES2015 & Babel
+■ Using Data (JSON)
+■ Webpack
+■ Intermediate CSS
+Concepts
+■ Responding to requests (“Hello World”)
+■ ERB
+■ Using Data (YAML)
+■ REST + APIs (webrick)
+■ Responding to requests
+■ REST + APIs ■ Razor
+Lab: Building a Non-trivial Website
+Week 5 - Modelling Data
+■ Regular Expressions
+■ APIs, AJAX & REST
+■ Routing
+■ Introduction to Backend
+Concepts
+■ Database Basics
+■ SQL
+■ Migrations
+■ ActiveRecord
+(Associations, Validations)
+■ Database Basics
+■ SQL
+■ Migrations
+■ Entity Framework
+■ LINQ
+Team Lab: Iron News
+Week 6 - Frameworks I
+■ Managing Complex State (e.g. Redux)
+■ Deploying to Production
+■ Rails Fundamentals ■ MVC
+■ Deploying to Heroku
+■ ASP.NET Fundamentals ■ MVC
+■ Deploying to Azure
+■ CSS Preprocessors & Frameworks (e.g. Sass & Bootstrap)
+Lab: Minesweeper
+Week 7 - Frameworks II
+■ Sessions/Cookies ■ localStorage
+■ Other Frameworks:
+Angular, Ember, jQuery
+■ The Asset Pipeline ■ Sessions
+■ Nested Attributes
+■ Sessions ■ Attributes ■ Routing
+■ Cache
+■ Intro to Authentication/Authorization with OAuth and JWT
+Team Lab: Commerce
+Week 8 - The Language of the Web
+  2of 3
+   ■ Understanding JavaScript module loaders
+■ Advanced CSS Concepts
+■ Unobtrusive JavaScript ■ AJAX
+■ DOM, jQuery
+■ Unobtrusive JavaScript ■ AJAX
+■ DOM, jQuery
+■ Typescript
+Lab: Mystery Project
+Week 9 - Advanced Topics
+■ Bonus Lectures (e.g. Canvas, GraphQL)
+■ Bonus Lectures (e.g. Capybara, Non-Rails Frameworks)
+■ Bonus Lectures (e.g. Angular, .NET Core, Xamarin, Nancy Framework)
+Agency Week
+Begin Final Projects
+3of 3

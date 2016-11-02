@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "postcss": "postcss -w -u postcss-cssnext -o public/screen.css src/screen.css",
+    "slim": "slimrb -p src/index.slim public/index.html",
+    "slim:watch": "chokidar 'src/*.slim' -c 'npm run slim'",
+    "serve": "browser-sync start --server 'public' --files 'public'",
+    "start": "concurrently 'npm run slim:watch' 'npm run postcss' 'npm run serve'"
+  },
+  "dependencies": {
+    "browser-sync": "^2.17.5",
+    "chokidar": "^1.6.1",
+    "concurrently": "^3.1.0",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.8.0",
+    "stylelint": "^7.5.0",
+    "stylelint-config-standard": "^14.0.0"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0"
+  }
+}
