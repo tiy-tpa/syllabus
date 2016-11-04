@@ -110,26 +110,20 @@ ul + .joint {
 
 .lab {
   flex-basis: 100%;
+  justify-content: center;
+  display: flex;
   border-top: 1px solid #727d84;
   line-height: 2em;
   text-align: center;
   background-color: hsl(190, 50%, 75%);
 
-  &::before {
-    content: 'Lab: ';
+  & .one {
+    flex: 1;
   }
 
-  &.one {
-    flex-basis: 33.333%;
-  }
-
-  &.two {
-    flex-basis: 66.666%;
-  }
-
-  & + .lab {
+  & .two {
     border-left: 1px solid #727d84;
-    margin-left: -1px;
+    flex: 2;
   }
 }
 
