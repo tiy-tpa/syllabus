@@ -75,8 +75,7 @@ section {
     background-color: hsl(110, 50%, 75%);
   }
 
-  & > h3,
-  & .lab {
+  & > h3 {
     flex: 0 0 100%;
   }
 
@@ -110,6 +109,7 @@ ul + .joint {
 }
 
 .lab {
+  flex-basis: 100%;
   border-top: 1px solid #727d84;
   line-height: 2em;
   text-align: center;
@@ -117,6 +117,19 @@ ul + .joint {
 
   &::before {
     content: 'Lab: ';
+  }
+
+  &.one {
+    flex-basis: 33.333%;
+  }
+
+  &.two {
+    flex-basis: 66.666%;
+  }
+
+  & + .lab {
+    border-left: 1px solid #727d84;
+    margin-left: -1px;
   }
 }
 

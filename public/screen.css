@@ -84,8 +84,7 @@ section h3 {
   background-color: hsl(110, 50%, 75%);
 }
 
-section > h3,
-  section .lab {
+section > h3 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
@@ -121,6 +120,8 @@ ul + .joint {
 }
 
 .lab {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   border-top: 1px solid #727d84;
   line-height: 2em;
   text-align: center;
@@ -129,6 +130,21 @@ ul + .joint {
 
 .lab::before {
   content: 'Lab: ';
+}
+
+.lab.one {
+  -ms-flex-preferred-size: 33.333%;
+      flex-basis: 33.333%;
+}
+
+.lab.two {
+  -ms-flex-preferred-size: 66.666%;
+      flex-basis: 66.666%;
+}
+
+.lab + .lab {
+  border-left: 1px solid #727d84;
+  margin-left: -1px;
 }
 
 section,
