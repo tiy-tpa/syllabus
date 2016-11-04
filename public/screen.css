@@ -73,7 +73,8 @@ header h3 {
 section {
 }
 
-section li {
+section li,
+  section .lab {
   font-family: 'Tisa Sans Pro', sans-serif;
 }
 
@@ -117,6 +118,8 @@ section > ul {
 
 ul + .joint {
   border-top: 1px solid #727d84;
+  text-align: center;
+  list-style: none;
 }
 
 .lab {
