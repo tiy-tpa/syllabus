@@ -1,26 +1,10 @@
-@font-face {
-  font-family: 'Tisa Pro';
-  src: url('./fonts/TisaPro.otf');
-}
-
-@font-face {
-  font-family: 'Tisa Sans Pro';
-  src: url('./fonts/TisaSansPro.otf');
-}
-
-@font-face {
-  font-family: 'Tisa Pro Bold';
-  src: url('./fonts/TisaPro-Bold.otf');
-  font-weight: bold;
-}
-
 html {
   text-size-adjust: 100%;
 }
 
 body {
   margin: 1em;
-  font: 16px / 1 'Tisa Pro', serif;
+  font: 16px / 1 'Overlock', serif;
   color: #233139;
   background-color: #eeebde;
 }
@@ -40,10 +24,13 @@ h1 {
   }
 }
 
-h1,
 h2,
 h3 {
-  font-family: 'Tisa Pro Bold', serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Bubblegum Sans', sans-serif;
   text-align: center;
 }
 
@@ -51,24 +38,20 @@ header {
   text-align: center;
 
   & h2 {
+    font-family: 'Bubblegum Sans', sans-serif;
     margin-bottom: 0.5em;
     font-size: 1.2em;
   }
 
   & h3 {
+    font-family: 'Overlock', serif;
     margin-top: 0.5em;
-    font-family: 'Tisa Pro';
     font-size: 1em;
     text-transform: uppercase;
   }
 }
 
 section {
-  & li,
-  & .lab {
-    font-family: 'Tisa Sans Pro', sans-serif;
-  }
-
   & h3 {
     margin: 0;
     border-bottom: 1px solid #727d84;
